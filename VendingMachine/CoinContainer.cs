@@ -63,5 +63,18 @@ namespace VendingMachine
                 nextContainer.AttachContainer(cc);
             }
         }
+
+        public int GrandTotalValue(){
+            int TotalValue = 0;
+            
+            if (nextContainer != null)
+            {
+                return TotalValue + nextContainer.GrandTotalValue();
+            }
+            else
+            {
+                return this.TotalValue;
+            }
+        }   
     }
 }

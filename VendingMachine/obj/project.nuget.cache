@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6XAFDDR1Z25lGQKAuOwd/VFB1PgCL9hFRUNBtNPLfjvUbWfv4Gzpw6G/85k7EokPZFkmjg2ZyC1/Ql2wYm/tCw==",
+  "dgSpecHash": "pqARRFc6UMy2lNH5tWkMxzJB26G73xkT/O1/82nM3tm1MT3C1lNJBrrMo1R6TgcSkzRUndTJbKOah+7T9mIY9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\obando_rodrigo\\OneDrive - Columbus State University\\Documents\\Courses2023\\CPSC3175\\Fall\\Projects\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/nico/OOPClass/VendingMachine/VendingMachine.csproj",
+  "expectedPackageFiles": [
+    "/home/nico/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.21/microsoft.netcore.app.host.linux-x64.6.0.21.nupkg.sha512"
+  ],
   "logs": []
 }

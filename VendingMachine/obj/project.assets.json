@@ -8,34 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\obando_rodrigo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/nico/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\obando_rodrigo\\OneDrive - Columbus State University\\Documents\\Courses2023\\CPSC3175\\Fall\\Projects\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+      "projectUniqueName": "/home/nico/OOPClass/VendingMachine/VendingMachine.csproj",
       "projectName": "VendingMachine",
-      "projectPath": "C:\\Users\\obando_rodrigo\\OneDrive - Columbus State University\\Documents\\Courses2023\\CPSC3175\\Fall\\Projects\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
-      "packagesPath": "C:\\Users\\obando_rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\obando_rodrigo\\OneDrive - Columbus State University\\Documents\\Courses2023\\CPSC3175\\Fall\\Projects\\VendingMachine\\VendingMachine\\obj\\",
+      "projectPath": "/home/nico/OOPClass/VendingMachine/VendingMachine.csproj",
+      "packagesPath": "/home/nico/.nuget/packages/",
+      "outputPath": "/home/nico/OOPClass/VendingMachine/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\obando_rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/nico/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,12 +54,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[6.0.21, 6.0.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
       }
     }
   }
